@@ -165,14 +165,12 @@ body {
   font-weight: var(--font-weight500);
   font-size: var(--font-size16px);
   line-height: 1.1875;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .career-block {
   font-size: var(--font-size16px);
   line-height: 1.1875;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
 }
@@ -199,7 +197,7 @@ body {
   color: var(--secondary-background-color);
 }
 
-.mail-section {
+.mail-link {
   list-style: none;
   text-decoration: none;
   font-style: var(--font-style);
@@ -210,7 +208,7 @@ body {
   color: var(--tel-mail-color);
 }
 
-.tel-section {
+.tel-link {
   list-style: none;
   text-decoration: none;
   font-style: var(--font-style);
@@ -220,14 +218,13 @@ body {
   letter-spacing: 0.03em;
   color: var(--tel-mail-color);
 }
-/* portfolio-btn-section */
+/* our-portfolio-section */
 
 .portfolio-btn-item {
   font-style: var(--font-style);
   font-weight: var(--font-weight500);
   font-size: var(--font-size16px);
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
@@ -254,11 +251,14 @@ body {
   font-weight: var(--font-weight500);
   font-size: var(--font-size16px);
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-background-color);
 }
 /* Our Portfolio section */
+.portfolio-list {
+  text-decoration: none;
+  list-style: none;
+}
 .portfolio-caption {
   font-style: var(--font-style);
   font-weight: var(--font);
