@@ -3,7 +3,6 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --background-color: #ffffff;
-  --secondary-background-color: #ffffff;
   --herobackground-color: #2f303a;
   --tel-mail-color: rgba(255, 255, 255, 0.6);
   --font-size14px: 14px;
@@ -23,11 +22,11 @@ body {
 .items {
   text-decoration: none;
   list-style: none;
-  background-color: var(--secondary-background-color);
+  background-color: var(--background-color);
 }
 /* Header */
 .page-header {
-  background-color: var(--secondary-background-color);
+  background-color: var(--background-color);
 }
 /* Logo Company */
 .logo {
@@ -45,13 +44,13 @@ body {
   color: var(--title-text-color);
 }
 .logo-colored-reversed {
-  color: var(--secondary-background-color);
+  color: var(--background-color);
 }
 /* Site nav */
 .site-nav {
   list-style: none;
   font-style: var(--font-style);
-  font-weight: var(--font-weight500)
+  font-weight: var(--font-weight500);
   font-size: var(--font-size14px);
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -96,7 +95,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--secondary-background-color);
+  color: var(--background-color);
 }
 .footer-list {
   text-decoration: none;
@@ -118,7 +117,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--secondary-background-color);
+  color: var(--background-color);
 }
 
 /* Our Feature section */
@@ -179,7 +178,7 @@ body {
   color: var(--primery-text-color);
 }
 .container {
-  background: var(--secondary-background-color);
+  background: var(--background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -198,7 +197,7 @@ body {
   font-size: var(--font-size14px);
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-background-color);
+  color: var(--background-color);
 }
 
 .mail-link {
@@ -233,7 +232,7 @@ body {
   color: var(--title-text-color);
 }
 .portfolio-btn-list {
-  background: var(--secondary-background-color);
+  background: var(--background-color);
   border-radius: 4px;
   text-decoration: none;
   list-style: none;
@@ -256,7 +255,7 @@ body {
   font-size: var(--font-size16px);
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: var(--secondary-background-color);
+  color: var(--background-color);
 }
 /* Our Portfolio section */
 .portfolio-list {
